@@ -38,6 +38,7 @@ label {
 }
 
 input[type="text"],
+select,
 textarea,
 pre {
   width: 100%;
