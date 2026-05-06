@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Local Pentest LLM (Ollama) - Firefox",
+  "version": "1.0.0",
+  "description": "DevTools chat panel that talks to a local Ollama model for authorized testing workflows.",
+  "applications": {
+    "gecko": {
+      "id": "local-pentest-llm@local",
+      "strict_min_version": "109.0"
+    }
+  },
+  "devtools_page": "devtools.html",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "storage",
+    "<all_urls>"
+  ]
+}
